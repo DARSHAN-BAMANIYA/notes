@@ -1,0 +1,129 @@
+                                                       ||basic||
+extension .py
+
+print("for print heloo or else")
+
+
+# single line comment
+""""  """  three qutes for multi lines comment
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                     ||user data collection||
+a=int(input("for user data collect"))
+       or
+a=input("user data")
+a=int(a) // this way change string to int 
+ 
+ by defalut string type
+"""def clicked():
+   res="YOUR NAME IS : "+ e1.get()+"  YOUR SIR NAME :"+e2.get()
+    show.config(text=res)"""
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                        || sequence type||
+
+
+string "darshan","hello",'hey','heelo'  \\use both  single quotes and double
+
+list  data=[12,23,45,"hello","bye"]   //it like array start with 0                                         \\print("type",type(a1)) for which type int float
+                                                                                                               tuple ,range and etc
+   [0] =12                  [-5]=12
+   [1] =23                  [-4]=23
+   [2] =45                  [-3]=45
+   [3] =hello               [-2]=hello
+   [4] =bye                 [-1]=bye     print(data[-1])//show the last data of list     \\  print("list:",data[::-1]) for reseve bye to 12
+
+
+tuple data=(10,20,30,'heelo')
+// can't change or modify  and readonly
+
+Dictionary
+data={101:"heelo",102:"hey",103:"bye"}
+
+range 
+\\not modify
+ex-:
+ rg=range(5)
+rg=range(10,20,2)
+
+
+set data={12,13,14,15,"hey",12,13,14,21} // remove duplicate data ex-:12,13,14
+
+
+sep='' is for seprate string or else  gave space with special character like + - /
+print(11,23,45,32,sep='/') output 11/23/32/45/32                           \\ by defalut no space in string and 
+
+end="" for space for string string or else  gave space with special character like + - / at end
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+  syntax
+if(condtion):
+   staement
+else:
+   stament
+
+while(condtion):
+   stament 
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                               ||strings||
+a1="   hello123    "
+print(a1.isspace())  # to check space
+print(a1.lstrip())   # FOR REMOVE LEFT SPACE
+print(a1.rstrip())    # FOR REMOVE RIGHT SPACE
+print(a1.strip())    # FOR REMOVE L&R SPACE
+print(a1.upper())    # FOR CHANGE IN UPPER CASE
+print(a1.lower())    # FOR CHANGE IN LOWERCASE
+print(a1.swapcase()) # FOR CHANGE  RESVES CASE
+print(a1.isupper())  # TO check case
+print(a1.islower())  #  To check  case
+
+a2="939103940"
+a3="darshan349gamil"
+print(a2.isdigit())# to check no
+print(a2.isalnum())# for both
+print(a3.isalpha()) 
+
+del a1[102] or a1   # for delete data
+a1.clear            # for clear data
+a2=a1.copy()        # for copy
+a3=dict.fromkey(a1,a2)  # for combine like 11:amit 22:mit
+a1.get(101,"error")   # if 101 is not there then error
+a1.items()            # for separate data & make is in tuple
+a1.values             # to show value
+a1.update((102:"dave")) 
+a1.pop(102,"error")     # for remove
+------------------------------------------------------------------------------------------------------------------------------------------------------------ 
+                                           ||DATE AND TIME||
+
+#TIME EX-:
+from time import time,ctime,  localtime
+
+a2 = time()
+a3=ctime()
+a4=localtime()
+
+print("",a2)
+print("current time =",a3)
+print("time in deatil = ",a4)
+
+print("",a4.tm_year)
+print("",a4.tm_mon)
+print("",a4.tm_mday)
+print("",a4.tm_hour)
+print("",a4.tm_min)
+print("",a4.tm_sec)
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+mysql -u root -h 127.0.0.1
+
+cmd in local file location
+C:\xampp\mysql\bin
+
+
+
+for py to exe
+pip install auto-py-to-exe

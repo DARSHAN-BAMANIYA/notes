@@ -1,0 +1,678 @@
+<pre> for space pargrpah
+<b> bold text
+<i> italic text <em>
+<small> small text
+<large> large text
+<sub>suscriped text
+<sup> superscripted text 
+<ins> underlind text
+<mark> high ligted text
+ <fieldset> for border
+<lengend> for text in middle border
+
+align
+<center>
+
+<ol>
+<li>
+
+<ul> 
+<li>
+
+<dl>
+<dd>
+<dt>
+<dl>
+
+list-style-type :cicrle squAare upper lower(bullet dots)
+
+<a href=""></a>
+<bodylink="" alink="" vlink"">
+
+
+<table>
+<tr>
+<th>
+<td>
+<tr>
+
+<form> post and get
+<input type="" name="" value""/> text ,radio submit
+<select> 
+<option value"select">select</option>
+</select>
+
+
+(comments)
+<!-- html   -->
+/* css */
+
+(linked files)
+<link rel ="" type="text/css" href="files .css">
+
+
+photo hyperlink and image
+<img="" usemap="" />
+<mapname="#">
+<area shape=" rect, circle" coord="00,00,000,000" href="">
+</map>
+
+
+<source media=" /youtube/video/embed"> 
+<source src="audio">
+<audio control>
+</audio>
+<iframe=""> </iframe>
+
+
+
+                                          css()
+<style>
+background-image:("");
+background-postion: ;
+background-color: ;
+background-repat: ;
+font color=""
+body bg color=""
+border-style
+text align:
+
+
+border-style:;
+border:1px solid;
+
+
+animation-duration: ;
+animation-name: ;
+animation-dealy: ;
+animation-direction: ;
+animation-iteration-cpint:
+
+
+
+@keyframes mymove {
+  from {top: 0px;}
+  to {top: 200px;}
+}
+
+{
+0%{}
+25%{}
+etc
+}
+
+
+#div{ animation-timing-funtion: linear,ease,ease-in,ease-out,ease-out ;}
+ <div id=> </div>
+
+
+
+
+                                                 java(.js)
+
+
+
+// single line commment
+/* multi */ 
+<canvas> draw graphics</canvas>
+
+var x= document.getelementbyId("")
+var obj= x get.context('');
+
+document.write("hello")
+
+var a1=1 var a2=2
+var ans= a1 + a2;
+
+document.write("sum=+ans);
+dodument.write("a1+"+"a2+"="+ans")
+
+readonly />
+
+
+consloe.log("write  any  it like doc .write");or ();
+
+varabile-:                                          
+var; redclare  take last var
+let: not recdclare take old var
+const:  to fixed var
+
+alert("hello"); for 
+promt("") for user input but is like alert
+let str=""; str for string
+ex
+var age=1
+var age=2
+consloe(age) output 2
+in letoutput 1
+
+
+
+let a=1;
+let b=2;
+ consloe.log("1==2",a==b); 
+
+
+// conditional statement
+ let age=25
+
+if (age>=18){
+ console.log("you can");
+}
+
+if (age<18){
+ console.log("you cant vote");
+}
+
+
+if else 
+
+let age =25;
+
+if(age>=18)
+{ console.log(age ,"vote");
+}
+else{
+concole.log(age,"not vote");
+}
+
+
+else if
+
+let mode ="silver";
+let color;
+
+if(mode==="dark")
+{ color="black";
+}
+else if (mode==="blue")
+{
+color="blue";
+}
+else{
+color="white"
+}
+consloe.log=("color");
+
+ for  
+
+let sum =0;
+ for(let i=1;i<=5;i++){
+sum=sum+i;
+}
+console.log("sum=",sum);
+
+ans=15
+
+
+WHILE LOOP
+
+let i=1;
+while(i<=5) conidtion
+{
+consloe.log("hey");
+i++                     
+}
+
+
+
+do while
+
+let i=1;
+do{ 
+consloe.log("i=",i);
+i++;
+}while(i<=5);
+
+
+
+
+
+let str=""; is for string
+
+
+array
+let marks=[11,22,33,44,55];
+console.log(marks);
+console.log (marks.length);//length for how many number are store
+console(marks[2]=21); for change array 
+
+for(let idx=0;idx<marks.lenghth;idx++)
+{ console.log(marks[idx]);
+}
+
+discount
+let items ={300,400,500,600.700};
+
+for(let i=0;i<items.length; i++)
+{
+let offer=items[i]/10;
+items[i]-=offer;  // items[i]=items[i]-offer;
+}
+console.log(items);
+
+
+  make a custom function like struct 
+
+function myfunction()
+{
+console.log("hello");
+}
+
+functionmyfunction();  // for recalling function
+
+
+
+function myfunction(msg)
+{
+console.log("msg");
+}
+
+function my function("hello");
+
+
+
+function myfunction(x,y) 
+{
+console.log(x+y);
+}
+
+functionmyfunction("5+4");  
+
+
+
+
+aroow sum  is variable   
+
+const arrowsum = (a,b)=>{
+console.log(a+b);
+};
+
+and for re call 
+arrowsum(x+y);
+
+
+
+let arr= [1,2,3,4,5];
+
+arr.forEach((val)=>{
+console.log(val,touppercase())f;
+});
+
+
+.map  if use for new array declartion 
+
+let nums =[23,45,67];
+
+let newarr=num.map(val)=>{ 
+return vall
+});
+
+
+
+.filter also like if else 
+
+num.filter(()=>{
+return %2==0;   // condion true will print not false 
+}):
+
+
+document object model dom
+
+document.get elementbyid("") for id calling from html
+
+document.getElementsbyClassname("")
+
+
+document,queryselector("") for id class p
+
+
+  .get attribute () to get arrtubute value 
+
+classname.setattribute() for change attribute
+
+node.style for css in java
+
+
+
+events 
+
+onclick="console('hello');"
+ondbclick="";
+onmouseover="";
+
+
+let btn1=document.queryselctor("id ");
+
+
+btn1.onclick=()=>{
+//this is work only one event and not with more
+}
+ 
+
+                     (event,callback)   
+btn1.addeventlistener(event,()=>{
+
+});
+
+
+math.random(); for any no
+math.floor(math.random()*10); for no decimal no under 10 
+
+
+     <<---class and object ---->>
+
+const xyz {}       // obect 
+
+const employee={
+caltax(){
+console.log("tax rate is 10%");
+  },
+                                       //both are same
+caltax: function(){
+console.log("tax is 10%");
+ }
+    };
+
+const karun={
+salary:50000;
+};
+
+karun.__proto__=emploee;  for acssesing employ class in karun.
+
+
+
+class parent{
+ hello(){ console.log("hello");}
+}
+
+class child extends parnet{}  // for accseing parent class
+
+let obj=new child(); f
+
+
+
+
+
+
+
+
+                                                          c lang
+
+
+       
+------>  flow line
+
+ ______
+(______) terimal
+          start\stop
+
+ _____
+|_____|   input \output
+
+ _______
+/_____ /  processing
+
+
+ 
+/  \    decisio
+\  /
+ 
+
+comments 
+single //
+multi /*  */
+
+
+#include <stdio.h> standard output header file 
+#include <conio.h> standard input output header files
+clrscr (); for clean screen 
+getch(); for  pause command and show
+printf ("");  standard output 
+scanf ("");  standard  input
+ 
+
+
+primtive datatypes 
+int  1,2,3 %d         (2\4 bytes) 
+ short %d  
+ long %ld (4bytes)
+
+      
+float 1.34 , 2.56   %f with decimal 
+double %lf 4 bytes
+long %Lf   10 bytes
+
+
+char  a,b,c %c   1 bytes
+
+string  allow multi char array
+
+
+
+\n  new line
+\t tab
+/b backspace
+
+
+
+[^\n]
+
+syntax
+
+#include<stdio.h>
+#include<conio.h>
+void main ()
+{
+
+printf("");
+scanf("");
+clrscr();
+
+getch();
+
+}
+
+
+for color
+
+text clor(GREEN);
+Cprintf();
+
+
+for burrering
+flushall();
+
+
+
+const for no chaning in value like fixed
+
+const int a=5;
+
+
+
+find digitin given number
+
+int n,sum=0,digit=0;
+
+while(n>0)
+{
+digit=n%10;
+sum=sum+digit;
+n=n/10;
+}
+printf("sum");
+
+
+
+
+ for odd and even
+      if(n%2==0)
+
+
+break; to break loop or pause something
+exit(0/1);  to come out of program              0 for quite  1 for force 
+return(); to come out of method
+continue; to skip loop  particular  
+goto; to jump loop or like bookmark  alway in : and after loop  hey:
+                                                                printf("");
+
+
+operators
+arthmetic
+relational
+logical
+assigment
+bitwise
+
+                     
+
+
+
+                               relational
+                                           < less than                     5<2 false
+                                          > greater than                   5>2  true
+                                           <= less than or equal to        5>=2 false
+                                           >= greater than or equal to      5>=2 true
+                                           == equal to                       5==2  false    
+                                           != not equal                       5!=2 true
+
+                             logical 
+
+                                    +
+                                    - 
+                                    *
+                                     / modulus
+                                      %
+
+
+
+
+                           
+
+
+                             arthmetic opetors
+                        printf("user value");
+                        logic or nothing
+                        printf("sub/add/multi/mod =%",a-b/a*b/a%b/);
+
+
+
+
+
+           syntax
+      
+if()
+{
+}
+ 
+else
+{
+}
+
+
+switch()                                               
+
+{
+
+ case 1:                                                                      
+      statement 1;
+       break;
+
+case 2:
+      statement 2;
+       break;
+
+defalut:
+}
+
+intalization= loop starting point
+condition= to give condition
+
+increment/decerement
+
+  for loop
+
+ for (intalization;condition;in/dec)
+{ statement;
+}
+
+
+do while loop 
+
+do
+{
+statements;
+inc/dec;
+}
+while(condition);
+
+
+
+
+
+
+
+
+
+
+
+
+
+ex- a,e,i,o,u
+char=ch;
+switch(ch)
+
+{
+
+ case 'A':
+      printf("%cvowel",ch);
+       break;
+
+case 'E':
+      printf("%cvowel",ch);
+       break;
+
+defalut:
+continue
+}
+
+
+
+
+
+  array
+   [0] the brackes define   array and inside value define as store value,
+   0 if by defalut
+  a[5]={1,1,1,1} this curly brake for fixed value  
+
+
+for colling data 
+int,n
+.....
+printf("size of aaray")
+scanf("");
+for(i=0;i<n;i++) 
+{
+printf(" eneter data");
+scanf("");
+}
+
+
+string(charater array)
+is set of character which is end with null chaeacter
+
+
+gets(); like scanf
+puts(); like show output on display
+header file
+#include<string.h>
+
+function 
+
+strupr(); string lenth
+strlwr();  lower case string
+strcpy();  copy one place to another
+strrev();   for string reserve
+strcmp(); for compare
+strcat(); string concade               

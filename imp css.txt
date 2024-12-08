@@ -1,0 +1,68 @@
+mdn for more detail                                     css 
+                                       cascading style sheet
+
+
+inline 
+<h1 style="color:red"> ......</h1>
+
+ linked
+<link rel ="stylesheet" href="file name">
+  
+
+
+text-align: right /left/center ;
+text-decoration: underline/ overline / line-though / none ;     ex -:for <a> underline
+font-weight: normal/bold/bolder/lighter or 100 to 900;           for font dark and light
+font-famliy:arial,roboto ;  for  multifont change
+font-size: 1px is too small ;
+line-height: 10px; for sapce betw pargr  like margin
+text-tranform:uppercase/lowercase/capitalize/none ;
+border : 2px solid black; //width ,style ,color
+padding :1px 2px 3px 4px;//top|right|bootom|left  //is for inside div content
+margin :; if for outside of div  
+
+display :inline block inline-block none;
+
+inline  take space as on requiremnet
+block    takes more space  
+inline-block  same as inline but we can set margin &padding
+none     for hide that div or remove from doc but 
+
+display: flex; 
+justify-content:flex-star,flex-end,center; content will on left right center in x axis.
+
+align-items:flex-star,flex-end,center; content will on left right center in y axis.
+  
+for both  space-between ,space-around,space-evenly
+use for space ,spacein left&right div , space only left.
+
+flex-direction:row,row-revrese,column; reverse will change ex-54321.
+
+flex-wrap:nowrap,wrap; wrap will ajust div and no wrap will not ajust .
+
+flex-shrink:0,1;0for no 1 for on it will shrink.
+
+flex-glow:0,1; it will grow amd ajust  free  space  
+
+align-self:center flex-star etc; it only will applied on specific div
+ 
+
+
+spce in none resverd
+
+visibility :hidden;  space is resverd
+
+position:static relative  sticky fixed ; no change | element we can move | move wile scroll with us |same  as stickly
+
+
+background-size: cover ;
+
+object-fit:cover; for image best resloution
+
+.class:hover{
+cusor: pointer; for pointer hand
+} for hover
+
+
+ 
+
